@@ -1,0 +1,59 @@
+/*Reglas generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    box-sizing: content-box;
+}
+
+:root{
+    --softViolet:hsl(273, 75%, 66%);
+    --softBlue: hsl(240, 73%, 65%);
+    --veryDarkGrayishBlue: hsl(237, 12%, 33%);
+    --darkGrayishBlue: hsl(240, 6%, 50%);
+    --lightGrayishBlue: hsl(240, 5%, 91%);
+}
+/*Fondo*/
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: auto;
+    background: linear-gradient(to bottom,var(--softViolet),var(--softBlue));
+    width: 1350px;
+    height: 740px;
+    
+}
+
+
+
+/*Carta*/
+
+.card{
+    width: 800px;
+    height: 500px;
+    border-radius: 8px;
+    margin: 50px auto;
+    display: flex;
+    background-color: white;
+
+}
+
+.izq{
+    width: 50%;
+    height: 100%;
+    background: fixed url('../images/bg-pattern-desktop.svg') 0px -140px no-repeat,
+                fixed url('../images/illustration-woman-online-desktop.svg') -70px -10px no-repeat;
+    background-size: contain;
+                
+    
+    
+    
+}
+
+.der{
+    width: 50%;
+    height: 100%;
+    
+}
+
