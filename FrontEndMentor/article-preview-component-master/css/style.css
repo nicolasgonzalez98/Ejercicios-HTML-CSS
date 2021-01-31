@@ -1,0 +1,183 @@
+/*Elementos generales*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*variables*/
+
+:root{
+    --veryDarkGrayishBlue: hsl(217, 19%, 35%);
+    --desaturatedDarkBlue: hsl(214, 17%, 51%);
+    --grayishBlue: hsl(212, 23%, 69%);
+    --lightGrayishBlue: hsl(210, 46%, 95%);
+}
+
+/*Import*/
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+/*Principales*/
+
+body{
+    
+    font-size: 63.5%;
+}
+
+.fondo{
+    font-family: 'Manrope', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--lightGrayishBlue);
+    width: 100vw;
+    height: 100vh;
+}
+
+/*Carta*/
+
+.card{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    background-color: white;
+    border-radius: 23px;
+    height: 45vh;
+    width: 60vw;
+}
+
+.img{
+    background-image: url('../images/drawers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    border-top-left-radius: 23px;
+    border-bottom-left-radius: 23px;
+}
+
+/*Noticia*/
+
+.noticia{
+    padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+}
+
+.noticia h1{
+    margin: 1rem 0 1rem 0;
+    color: var(--veryDarkGrayishBlue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+}
+
+.noticia p{
+    font-size: 0.8rem;
+    padding-right: 1rem;
+    color: var(--desaturatedDarkBlue);
+    text-align: justify;
+}
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.datos{
+    display: flex;
+}
+
+.datos img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    margin-right: 0.5rem;
+}
+
+.datos .nom{
+    margin-top: 0.4rem;
+}
+
+.nom h3{
+    color: var(--veryDarkGrayishBlue);
+    font-weight: bold;
+}
+
+.nom p{
+    color: var(--grayishBlue);
+    font-weight: 400;
+    margin-top: 0.2rem;
+}
+
+.comp{
+    height: 30px;
+    width: 30px;
+    border-radius: 40px;
+    background-color: var(--lightGrayishBlue);
+    margin-top: 0.5rem;
+    background-image: url('../images/icon-share.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.share{
+    position: absolute;
+    right: 233px;
+    bottom: 275px;
+    display: flex;
+    background-color: var(--veryDarkGrayishBlue);
+    width: 200px;
+    height: 55px;
+    border-radius: 12px;
+    padding: 0.5rem;
+    text-align: center;
+    z-index: 1;
+    opacity: 0;
+
+
+}
+
+.share p{
+    letter-spacing: 0.5em;
+    text-transform: uppercase;
+    color: var(--grayishBlue);
+    margin: auto 0 auto 1em;
+}
+
+.redes{
+    display: flex;
+    
+}
+
+.redes a{
+    height: 20px;
+    width: 20px;
+    border-radius: 40px;
+    margin: auto 0.5em auto 0.1em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.fb{
+    background-image: url('../images/icon-facebook.svg'); 
+}
+
+.tw{
+    background-image: url('../images/icon-twitter.svg');
+    background-size: auto;
+}
+
+.pn{
+    background-image: url('../images/icon-pinterest.svg');
+}
+
+
+.box{
+    position: absolute;
+    right: 310px;
+    bottom: 260px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    background-color: var(--veryDarkGrayishBlue);
+    z-index: 0;
+    opacity: 0;
+}
