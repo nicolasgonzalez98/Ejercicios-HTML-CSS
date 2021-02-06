@@ -42,8 +42,8 @@ body{
     grid-template-columns: 35% 65%;
     background-color: white;
     border-radius: 23px;
-    height: 45vh;
-    width: 60vw;
+    height: 50vh;
+    width: 80vw;
 }
 
 .img{
