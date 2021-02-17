@@ -1,0 +1,158 @@
+/*Reglas generales*/
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 65%;
+    font-family: 'Inter', sans-serif;
+}
+
+/*Variables*/
+
+:root{
+    /*Colores*/
+    /*Primary*/
+    --darkBlue: hsl(240, 38%, 20%);
+    --grayishBlue: hsl(240, 18%, 77%);
+
+}
+
+/*Import*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
+
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.bg-pattern{
+    position: absolute;
+    
+    right: 5%;
+    top: 5%;
+    width: auto;
+    height: 90%;
+}
+
+.bg-curve{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
+.bg-quotes{
+    position: absolute;
+    left: 20%;
+    top: 18%;
+}
+
+/*Opiniones*/
+
+.slide{
+    list-style: none;
+    width: 80%;
+    height: 70%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 10;
+    
+
+}
+
+.slide li{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    background-color: transparent;
+    display: flex;  
+}
+
+.texto{
+    position: absolute;
+    padding-top: 9.5rem;
+    padding-left: 1rem;
+    width: 60%;
+    height: 80%;
+    z-index: 20;
+}
+
+.foto{
+    position: absolute;
+    right: 5%;
+    z-index: 1;
+    padding-top: 2rem;
+    height: 80vh;
+    width: 40vw;
+    box-shadow: box-shadow: 2px 2px 2rem 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.cita{
+    font-size: 3rem;
+    font-weight:initial;
+    padding: 1rem;
+    color: var(--darkBlue);
+}
+
+.datos{
+    padding: 1rem;
+}
+
+
+
+div .nombre, div .profesion{
+    font-size: 1.8rem;
+}
+
+div .nombre{
+    font-weight: bolder;
+}
+
+div .profesion{
+    font-weight: lighter;
+    color: var(--grayishBlue);
+}
+
+
+
+
+.slide .active{
+    opacity: 1;
+}
+
+
+/*Botonera*/
+.botonera{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 6rem;
+    height: 3rem;
+    background-color: white;
+    position: absolute;
+    border-radius: 60px;
+    bottom: 8%;
+    right: 34%;
+    z-index: 17;
+    box-shadow: 0.2rem 0.2rem 0.4rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+
+.prev{
+    background-image: url('../images/icon-prev.svg');
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: center;
+    
+}
+
+.next{
+    background-image: url('../images/icon-next.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+}

@@ -1,12 +1,14 @@
-@media screen and (max-width:500px){
+@media screen and (max-width:721px){
+
+    /*Carta*/
     .card{
-        height: 90vh;
+        height: 50vh;
         display: block;
         background-color: white;
         border-radius: 23px;
         width: 90vw;
     }
-
+    /*Foto*/
     .img{
         border-top-left-radius: 23px;
         border-top-right-radius: 23px;
@@ -15,10 +17,71 @@
         width: 100%;
         
     }
-
+    /*Noticia*/
     .noticia{
         width: 100%;
         height: 60%;
+        padding: 2rem 1.5rem;
     }
+
+    .noticia h1{
+        font-size: 2rem;
+    }
+
+    .noticia p{
+        font-size: 1.6rem;
+        padding: 1rem 0;
+    }
+
+    .datos img{
+        width: 70px;
+        height: 70px;
+    }
+
+    .nom h3{
+        font-size: 1.7rem;
+    }
+
+    .nom .fecha{
+        padding: 0;
+        font-weight:lighter;
+        font-size: 1.5rem;
+    }
+
+    .comp{
+        cursor: none;
+        width: 3rem;
+        height: 3rem;
+        
+    }
+
+    .share{
+        width: 90%;
+        height: 5%;
+        bottom: 30%;
+        right: 4.5%;
+        z-index: 9;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .share .comp{
+        display: block;
+        background-color: hsl(212, 23%, 69%);
+    }
+
+    .redes a{
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .box{
+        display: none;
+    }
+
+
+
+
+
     
 }
