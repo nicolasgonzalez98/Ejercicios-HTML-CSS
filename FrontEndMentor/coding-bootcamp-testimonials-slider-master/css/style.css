@@ -88,7 +88,7 @@
     padding-top: 2rem;
     height: 80vh;
     width: 40vw;
-    box-shadow: box-shadow: 2px 2px 2rem 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2rem 1px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -155,4 +155,67 @@ div .profesion{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30%;
+}
+
+
+/*Responsive*/
+
+@media screen and (max-width: 722px){
+    /*Fondos*/
+    .bg-pattern{
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .bg-quotes{
+        position: absolute;
+        top: 60%;
+        left: 40%;
+    }
+
+    .slide li{
+        display: block;
+    }
+    /*texto*/
+    .texto{
+        position: absolute;
+        padding-top: 0;
+        padding-left: 0;
+        width: 95%;
+        text-align: center;
+        top: 75%;
+    }
+
+    .cita{
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+    .datos{
+        display: block;
+        padding: 0.5rem;
+    }
+
+    div .nombre, div .profesion{
+        font-size: 2.5rem;
+    }
+
+    /*foto*/
+    .foto{
+        width: 90%;
+        height: 60%;
+        padding-top: 0;
+        border-radius: 1rem;
+        right: 5%;
+        top: -1%;
+    }
+
+    /*botonera*/
+    
+    .botonera{
+        height: 8rem;
+        width: 16rem;
+        top: 48.5%;
+        right: 38% ;
+    }
 }
