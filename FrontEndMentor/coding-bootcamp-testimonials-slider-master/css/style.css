@@ -186,7 +186,7 @@ div .profesion{
     }
 
     .cita{
-        font-size: 3.8rem;
+        /*font-size: 3.8rem;*/
         font-weight: lighter;
     }
 
@@ -195,9 +195,9 @@ div .profesion{
         padding: 0.5rem;
     }
 
-    div .nombre, div .profesion{
+    /*div .nombre, div .profesion{
         font-size: 2.5rem;
-    }
+    }*/
 
     /*foto*/
     .foto{
