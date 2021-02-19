@@ -85,7 +85,6 @@
     position: absolute;
     right: 5%;
     z-index: 1;
-    padding-top: 2rem;
     height: 80vh;
     width: 40vw;
     box-shadow: 2px 2px 2rem 1px rgba(0, 0, 0, 0.2);
@@ -181,13 +180,13 @@ div .profesion{
         position: absolute;
         padding-top: 0;
         padding-left: 0;
-        width: 95%;
+        width: 90%;
         text-align: center;
         top: 75%;
     }
 
     .cita{
-        font-size: 4rem;
+        font-size: 3.8rem;
         font-weight: lighter;
     }
 
@@ -213,9 +212,7 @@ div .profesion{
     /*botonera*/
     
     .botonera{
-        height: 8rem;
-        width: 16rem;
-        top: 48.5%;
-        right: 38% ;
+        top: 50%;
+        right: 45% ;
     }
 }
